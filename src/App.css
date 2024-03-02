@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .logo {
@@ -39,4 +40,44 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.container {
+  background-color: #ffffffe6;
+  color: #000000cc;
+  width: 1200px;
+  height: 750px;
+  border-radius: 25px;
+}
+
+.header {
+  padding: 1px;
+  font-size: 24px;
+  letter-spacing: 4px;
+}
+
+.main {
+  margin-bottom: 50px;
+}
+
+.question {
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.answer {
+  display: none;
+  margin-bottom: 25px;
+}
+
+.reveal {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
 }
